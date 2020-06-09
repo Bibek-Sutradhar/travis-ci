@@ -12,3 +12,7 @@ pipelines:
           - maven
         script: # Modify the commands below to build your repository.
           - mvn -B clean install # -B batch mode makes Maven less verbose
+
+          - docker build -t bibeksutradhar/travis-ci:1.0 .
+        services:
+          - docker
