@@ -6,4 +6,4 @@ script: ./mvnw clean install
 
 notifications:
   email: bibek.tech@gmail.com
-  slack: ibm-cloud:dg7qXuqrMFDPITAJGqiK3ZNq
+  #slack: ibm-cloud:dg7qXuqrMFDPITAJGqiK3ZNq
